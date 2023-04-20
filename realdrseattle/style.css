@@ -1,0 +1,163 @@
+/*
+Theme Name: Realdrseattle
+Theme URI: https://dearfriendsbook.com/realdrseattle/
+Author: Karan Kandoriya
+Author URI: https://wordpress.org/
+Description: Realdrseattle is the only HR company in the world that provides its service free of charge for hiring managers and recruiters. (That means the opportunities for employment are more than HR agencies that charge hiring managers and recruiters a fee).
+Version: 1.2
+
+*/
+
+
+.main-navbar ul li.active a {
+    border-bottom: 2px solid white !important;
+}
+body .mltlngg-lang-switch-names li, body .mltlngg-lang-switch-names li > ul li {
+	background-color: transparent;
+	border: none;
+}
+.mltlngg_switcher img {
+	max-width: 16px;
+}
+body .main-navbar {
+	overflow: initial;
+}
+.main-content h2 {
+	font-family: "Elephant-Outline" !important;
+	font-size: 5.50rem;
+    font-weight: 500;
+}
+.main-content h3 {
+	font-size: 4rem;
+    font-weight: 700;
+}
+body .main-navbar {
+	overflow: initial;
+}
+img {
+	max-width: 100%;
+}
+.main-content {
+	margin-bottom: 40px;
+}
+.wpcf7-form {
+	padding: 40px 20px;
+  	color: #fff;
+  	background: linear-gradient(to bottom, #087861de, #066250a6);
+    border-radius: 20px;
+}
+.wpcf7-form h3 {
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+}
+.wpcf7-form .form-control {
+	background-color: transparent;
+	padding: 10px;
+	color: #fff;
+	font-size: 18px;
+}
+.wpcf7-form .form-control:focus {
+	background-color: transparent;
+    border-color: #fff;
+    box-shadow: none;
+    color: #fff;
+}
+.wpcf7-form h4 {
+	font-size: 2.5rem;
+	font-weight: 500;
+	margin-bottom: 40px;
+}
+
+
+body img.site-logo {
+	max-width: 220px;
+    max-height: 120px;
+}
+ul.footer-menu li {
+	padding: 0px 10px;
+}
+.section-two {
+	font-size: 18px;
+}
+.footer-item .footer-link {
+    border-bottom: 2px solid transparent;
+}
+ul.footer-menu {
+	list-style: none;
+   justify-content: center;
+}
+
+.top-menu a {
+	color: #5bc8af;
+	text-decoration: none;
+}
+.top-menu p {
+	margin-bottom:0px;
+}
+.top-menu {
+	font-size: 18px;
+    line-height: 18px;
+}
+.gap-6 {
+    gap: 4.5rem;
+}
+body .navbar-toggler {
+	font-size: 32px;
+	color:#fff;
+}
+@media (max-width: 767px) {
+	.gap-6 {
+	    gap: 1.5rem;
+	}
+	.top-menu {
+		text-align: center;
+	}
+}
+@media (min-width: 768px) {
+	ul.footer-menu {
+		display: flex;
+	}
+	.form-with-animated-labels {
+		padding: 0px 40px;
+	}
+	.top-menu {
+	    margin-left: 30px;
+	    padding-left: 30px;
+	    border-left: 1px solid #fff;
+	}
+}
+
+.wpcf7 .text-wrapper {
+	position: relative;
+	margin-bottom: 20px;
+}
+select.form-control, select.form-control option {
+  	background-color: #2a7b6b;
+    cursor: pointer;
+}
+
+.wpcf7 .btn-default.btn {
+	padding: 10px 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+.wpcf7 .text-wrapper > label {
+  position: absolute;
+  top: 1rem;
+  left: 10px;
+  transition: all .1s ease-in-out;
+  z-index: 1;
+}
+.wpcf7 .text-wrapper label {
+    cursor: pointer;
+}
+
+.wpcf7 .text-wrapper > label.move {
+    top: -7px;
+    left: 5px;
+    padding: 0px 5px;
+    background: linear-gradient(to bottom, #064538ed, #064538ed);
+    font-size: 10px;
+}
